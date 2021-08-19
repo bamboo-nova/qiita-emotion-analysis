@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import sys
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -144,3 +145,6 @@ if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
     import django_heroku #追加
     django_heroku.settings(locals()) #追加
+
+# appsに対応できるようにするためのTips
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
