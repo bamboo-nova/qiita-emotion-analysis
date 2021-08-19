@@ -16,3 +16,4 @@ scipy==1.6.3
 tweepy==3.10.0
 unidic-lite==1.0.8
 whitenoise==5.3.0
+psycopg2
