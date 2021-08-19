@@ -1,1 +1,1 @@
-web:gunicorn emo_monitor.wsgi --log-file -
+web: gunicorn emo_monitor.wsgi
