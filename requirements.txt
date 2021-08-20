@@ -17,3 +17,5 @@ tweepy==3.10.0
 unidic-lite==1.0.8
 whitenoise==5.3.0
 psycopg2>=2.8,<2.9
+ipadic==1.0.0
+pymlask==0.3.2
